@@ -1,0 +1,59 @@
+
+.main{
+background-image: url(//camp.potepan.com/wp-content/themes/potepancamp/assets/styles/../images/home/first-view/top-hero.jpg);
+  background-size:cover;
+  
+}
+.header{font-size:13px;}
+span{font-size:5px; font-weight: normal;}
+.header-logo img{ padding:20px; float:left; height: 20px;
+    width: auto;}
+    .header-logo img:hover{opacity:0.6;}
+.parent ul{ 
+ text-align:center; align-items: center;
+    display: flex;
+    float:right; font-weight:bold; 
+   ;list-style: none; margin-right: 30px;
+}
+li:hover{opacity:0.6;}
+li{ margin:10px 25px;font-weight:bold; }
+
+a{text-decoration: none; color:black;}
+.content{padding:70px 0px 30px 30px;;}
+.center{ text-align:center;  width:60%}
+h2{font-size: 38px; font-family:'Lato',sans-serif; margin:30px auto 10px auto; }
+.image{display: flex;align-items:center; padding-left: 185px }
+.btn{display: inline-block;padding:20px 40px; margin:10px 0;}
+.btn:hover{opacity:0.6;}
+.orange2{background-color:#f79214; border-radius:30px; 
+  font-size:14px; color:white; 
+}
+
+.white2{ border-radius:30px;   border: 1px #a2a2a4 solid;
+  font-size:14px; 
+}
+.small{margin:60px 0 0 185px; font-size:12px; color:#a2a2a4; text-align: left;}
+.video{width:50%; margin-right:50px; height:300px;}
+.footer{  display:flex;
+ align-items: center;
+ background-color:#f79214;
+ padding:120px 170px;
+ height:150px;
+}
+
+.orange a{color:white;}
+.orange  {background-color:#f79214; border-radius:30px;}
+.orange :hover{opacity:.8;}
+.footer2 {color:white; font-size: 16px;
+}
+.footer2 a{color:white;font-weight: bold;}
+h3{font-size:38px;}
+
+@media (max-width: 1080px) {
+  /* lessonクラスのCSSを指定してください */
+  .content{display:block; float:none;
+    
+    
+}
+  
+}
